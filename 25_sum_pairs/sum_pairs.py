@@ -21,3 +21,11 @@ def sum_pairs(nums, goal):
         >>> sum_pairs([11, 20, 4, 2, 1, 5], 100)
         ()
     """
+    #This exercise doesn't explain what it means by "finish before"!!! I can't complete this!!!!!!
+    #min_goal = ()
+    #for x in range(len(nums)-1, -1, -1):
+    #    for y in range(len(nums)-1, -1, -1):
+    #        if nums[x]+nums[y] == goal:
+    #            min_goal = (nums[x], nums[y])
+    #return min_goal
+

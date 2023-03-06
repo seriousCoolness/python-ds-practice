@@ -21,3 +21,7 @@ def is_palindrome(phrase):
         >>> is_palindrome('Noon')
         True
     """
+    phrase = [char for char in phrase.lower() if char != ' ']
+
+    esarhp = [rahc for rahc in reversed(phrase)]
+    return phrase == esarhp
